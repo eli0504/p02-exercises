@@ -11,11 +11,11 @@ public class exercise1 : MonoBehaviour
         if (number > 0)
         {
             Debug.Log($"The number {number} is positive");
-        }else if (number == 0)
+        }else if (number == 0)   //if it is not positive, it is zero or negative
         {
             Debug.Log($"The number {number} is zero");
         }
-        else
+        else   //if it is neither positive nor zero, it is negative
         {
             Debug.Log($"The number {number} is negative");
         }
